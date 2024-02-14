@@ -7,8 +7,8 @@
 
     <ImageView
         android:id="@+id/movie_image"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="187dp"
+        android:layout_height="205dp"
         android:padding="2dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -18,7 +18,7 @@
         android:id="@+id/movie_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text=""
         android:padding="2dp"
         app:layout_constraintStart_toEndOf="@+id/movie_image"
         app:layout_constraintTop_toBottomOf="@+id/movie_title" />
@@ -27,7 +27,7 @@
         android:id="@+id/movie_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text=""
         android:padding="2dp"
         android:textAppearance="?attr/textAppearanceListItem"
         app:layout_constraintStart_toEndOf="@+id/movie_image"
