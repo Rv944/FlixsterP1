@@ -16,7 +16,7 @@ class openingMoviesRecyclerViewAdapter (
     : RecyclerView.Adapter<openingMoviesRecyclerViewAdapter.MovieViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieViewHolder {
         val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.now_opening_movies_list, parent, false)
+            .inflate(R.layout.now_opening_movies, parent, false)
         return MovieViewHolder(view)
 
     }
@@ -33,7 +33,7 @@ class openingMoviesRecyclerViewAdapter (
         val mMovieImage: ImageView = mView.findViewById<View>(id.movie_image) as ImageView
 
         override fun toString(): String {
-            return mMovieTitle.toString() + " '"
+            return "$mMovieTitle '"
         }
     }
 
