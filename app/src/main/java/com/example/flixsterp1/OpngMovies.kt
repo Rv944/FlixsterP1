@@ -4,14 +4,14 @@ import com.google.gson.annotations.SerializedName
 
 class OpngMovies {
     @JvmField
-    @SerializedName("movie_title")
+    @SerializedName("title")
     var title: String? = null
 
     //TODO bookImageUrl
-    @SerializedName("movie_image")
+    @SerializedName("backdrop_path")
     var movieImageUrl: String? = null
 
     //TODO description
-    @SerializedName("movie_description")
+    @SerializedName("overview")
     var description: String? = null
 }
